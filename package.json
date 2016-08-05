@@ -1,0 +1,18 @@
+{
+  "name": "textmate-active4d-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Textmate tomorrow-night theme for Atom",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "tomorrow-night"
+  ],
+  "repository": "https://github.com/phthhieu/textmate-tomorrow-night-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
+
