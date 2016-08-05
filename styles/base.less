@@ -53,189 +53,52 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .comment {
-  color: #8E8F8D;
+  color: #969896;
 }
 
-.string {
-  color: #A7B367;
+.keyword.operator.class, .constant.other, .source.php.embedded.line {
+  color: #CED1CF;
 }
 
-.string .source {
-  color: #D09562;
+.variable, .support.other.variable, .string.other.link, .string.regexp, .entity.name.tag, .entity.other.attribute-name {
+  color: #CC6666;
 }
 
-.constant.numeric {
-  color: #D09562;
+.constant.numeric, .constant.language, .support.constant, .constant.character, .variable.parameter, .punctuation.section.embedded, .keyword.other.unit {
+  color: #DE935F;
 }
 
-.constant.language {
-  color: #D56C69;
+.entity.name.class, .entity.name.type.class, .support.type, .support.class {
+  color: #F0C674;
 }
 
-.constant.character, .constant.other {
-  color: #D56C69;
+.string, .constant.other.symbol, .entity.other.inherited-class, .markup.heading {
+  color: #B5BD68;
 }
 
-.keyword {
-  color: #82A3BF;
+.keyword.operator, .constant.other.color {
+  color: #8ABEB7;
 }
 
-.support {
-  color: #D56C69;
+.entity.name.function, .meta.function-call, .support.function, .keyword.other.special-method, .meta.block-level {
+  color: #81A2BE;
 }
 
-.storage {
-  color: #BA9AC2;
-}
-
-.entity.name.class, .entity.name.type.class, .entity.name.type.module {
-  color: #82A3BF;
-}
-
-.entity.other.inherited-class {
-  color: #D56C69;
-}
-
-.entity.name.function {
-  color: #82A3BF;
-}
-
-.variable.parameter {
-  color: #82A3BF;
-}
-
-.entity.name.tag {
-  color: #BA9AC2;
-}
-
-.entity.other.attribute-name {
-  color: #BA9AC2;
-}
-
-.support.function {
-  color: #C3A2CC;
-}
-
-.keyword {
-  color: #AFB0AE;
-}
-
-.variable.other, .variable.js, .punctuation.separator.variable {
-  color: #82A3BF;
-}
-
-.constant.language {
-  color: #D09562;
-}
-
-.punctuation.section.embedded:not(.source .string .source .punctuation.section.embedded), .meta.brace.erb.html {
-  color: #A7B367;
+.keyword, .storage, .storage.type, .entity.name.tag.css {
+  color: #B294BB;
 }
 
 .invalid {
-  color: #FF0B00;
+  color: #CED2CF;
+  background-color: #DF5F5F;
 }
 
-.variable.other.php, .variable.other.normal {
-  color: #D56C69;
+.meta.separator {
+  color: #CED2CF;
+  background-color: #82A3BF;
 }
 
-.meta.function-call {
-  color: #82A3BF;
-}
-
-.meta.function-call.object {
-  color: #BA9AC2;
-}
-
-.variable.other.property {
-  color: #BA9AC2;
-}
-
-.keyword.control {
-  color: #BA9AC2;
-}
-
-.meta.tag {
-  color: #BB99C1;
-}
-
-.entity.name.tag {
-  color: #BF9CBE;
-}
-
-.meta.doctype, .meta.tag.sgml-declaration.doctype, .meta.tag.sgml.doctype {
-  color: #A7B367;
-}
-
-.meta.tag.inline .source, .text.html.php.source {
-  color: #A7B367;
-}
-
-.meta.tag.other, .entity.name.tag.style, .entity.name.tag.script, .meta.tag.block.script, .source.js.embedded .punctuation.definition.tag.html, .source.css.embedded .punctuation.definition.tag.html {
-  color: #C3A2CC;
-}
-
-.entity.other.attribute-name, .meta.tag .punctuation.definition.string {
-  color: #C2A2CC;
-}
-
-.meta.tag .string:not(.source:not(.punctuation)), .text .source .text .meta.tag .string:not(.punctuation) {
-  color: #82A3BF;
-}
-
-.punctuation.section.embedded:not(.source .string .source .punctuation.section.embedded), .meta.brace.erb.html {
-  color: #D09562;
-}
-
-.meta.toc-list.id {
-  color: #C2A2CC;
-}
-
-.meta.selector.css .entity.other.attribute-name.id {
-  color: #BA9AC2;
-}
-
-.support.type.property-name.css {
-  color: #82A3BF;
-}
-
-.meta.property-group .support.constant.property-value.css, .meta.property-value .support.constant.property-value.css {
-  color: #D56C69;
-}
-
-.variable.language.js {
-  color: #D66C68;
-}
-
-.meta.function-call.object.php {
-  color: #D3B96B;
-}
-
-.punctuation.definition.string.end.php, .punctuation.definition.string.begin.php {
-  color: #A8B06E;
-}
-
-.source.php.embedded.line.html {
-  color: #AFB0AE;
-}
-
-.constant.other.symbol.ruby {
-  color: #A7B467;
-}
-
-.variable.language.ruby {
-  color: #D3B96B;
-}
-
-.keyword.other.special-method.ruby {
-  color: #D3B96C;
-}
-
-.source.ruby.embedded.source {
-  color: #D09562;
-}
-
-.keyword.other.DML.sql {
-  color: #D3B96B;
+.invalid.deprecated {
+  color: #CED2CF;
+  background-color: #B798BF;
 }
